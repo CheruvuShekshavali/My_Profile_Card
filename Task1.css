@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    padding-top: 100px;
+}
+
+section>article {
+    height: 550px;
+    width: 300px;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px white;
+    margin-left: 600px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+section>article:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+section>article>div {
+    height: 100px;
+    width: 100px;
+    border-radius: 55%;
+    margin-top: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-image: url(https://i.postimg.cc/g03x7K6T/My-Profilr-Picjpg.jpg);
+    background-position: 115px;
+    background-position-y: 7px;
+    background-size: 130px;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+section>article>h1,
+p {
+    text-align: center;
+    padding-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section>article>h5 {
+    font-size: 16px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: rgb(154, 64, 64);
+    padding-top: 10px;
+}
+
+section>article>button {
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: rgb(137, 226, 4);
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgb(190, 247, 2);
+}
+
+section>article>button:hover {
+    transform: scale(1.1, 1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+section>article>main {
+    padding-top: 15px;
+}
+
+section>article>main>a>i {
+    margin-top: 25px;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+section>article>main>a>.fa-instagram {
+    color: crimson;
+}
+
+section>article>main>a>.fa-github {
+    color: rgb(0, 0, 0);
+}
+
+section>article>main>a>.fa-linkedin {
+    color: blue;
+}
+
+section>article>main>a>.fa-envelope {
+    color: rgb(231, 54, 34);
+}
